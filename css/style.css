@@ -2,8 +2,16 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: rgb(246, 248, 249);
     box-sizing: border-box;
     list-style: none;
+}
+
+/* HEADER STYLE */
+
+.logo-container {
+    padding: 10px 0px 0px 20px;
+    background-color: white;
 }
 
 
