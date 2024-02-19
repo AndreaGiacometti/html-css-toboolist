@@ -2,31 +2,33 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: rgb(246, 248, 249);
     box-sizing: border-box;
     list-style: none;
 }
 
-/* HEADER STYLE */
+body {
+    background-color: rgb(246, 248, 249);
+}
 
+/* HEADER STYLE */
 .logo-container {
     padding: 10px 0px 0px 20px;
     background-color: white;
 }
 
 /* BUTTON CONTAINER STYLE */
-
 .button-container {
     display: flex;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    margin: 40px auto;
+    margin: 40px auto 0px;
     width: 70%;
-    border-radius: 10%;
+    border-radius: 5px 0px 0px 0px;
     height: 50px;
     padding-left: 50px;
 }
 
+/* BUTTONS STYLE */
 .task-button {
     font-weight: 200;
     padding: 5px 10px;
@@ -34,7 +36,6 @@
     background-color: rgb(20, 170, 245);
     border-radius: 10%;
 }
-
 .section-button {   
     font-weight: 200;
     padding: 5px 10px;
@@ -43,20 +44,53 @@
     border-radius: 10%;
 }
 
+/* LIST STYLE */
+.list-container {
+    background-color: rgb(255, 255, 255);
+    margin: 2px auto;
+    width: 70%;
+    border-radius: 0px 0px 0px 5px;
+    padding: 20px 0px 0px 50px;
+    height: 500px;
+}
 
+ul li{
+    background-color: transparent;
+  }
 
-
-
-
-
-/* .circle {
+  .arrow-container {
     width: 20px;
     height: 20px;
-    border: 1px solid #00ff00;
-    border-radius: 50%;
-    font-size: 15px;
-    font-weight: 100;
-    color: #0f0;
     text-align: center;
-    background: transparent
-  } */
+    font-size: 10px;
+    display: inline-block;
+  }
+
+.circle-container {
+    width: 20px;
+    height: 20px;
+    border: solid thin;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .circle-content {
+    font-size: 12px;
+  }
+
+  .v {
+    color: rgb(96, 212, 192);
+    border-color: rgb(96, 212, 192);
+  }
+
+  .x {
+    border-color: red;
+    color: red;
+  }
+
+  .item-title {
+    font-size: 20px;
+  }
+
+
