@@ -8,6 +8,7 @@
 
 body {
     background-color: rgb(246, 248, 249);
+    font-family: Arial, Helvetica, sans-serif
 }
 
 /* HEADER STYLE */
@@ -22,7 +23,7 @@ body {
     align-items: center;
     background-color: rgb(255, 255, 255);
     margin: 40px auto 0px;
-    width: 70%;
+    max-width: 800px;
     border-radius: 5px 0px 0px 0px;
     height: 50px;
     padding-left: 50px;
@@ -48,49 +49,53 @@ body {
 .list-container {
     background-color: rgb(255, 255, 255);
     margin: 2px auto;
-    width: 70%;
+    max-width: 800px;;
     border-radius: 0px 0px 0px 5px;
     padding: 20px 0px 0px 50px;
-    height: 500px;
 }
 
-ul li{
-    background-color: transparent;
-  }
+.list-container > * {
+    vertical-align: middle;
+}
 
-  .arrow-container {
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    font-size: 10px;
-    display: inline-block;
-  }
+.list-container span{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  font-weight: lighter;
+  background-color: transparent;
+  text-align: center;
+  line-height: 20px;
+  margin: 10px;
+}
 
-.circle-container {
-    width: 20px;
-    height: 20px;
-    border: solid thin;
-    border-radius: 50%;
-    text-align: center;
-    display: inline-block;
-  }
+.circle-v {
+  color: rgb(96, 212, 192);
+  border: solid 1px rgb(96, 212, 192);
+  border-radius: 50%;
+}
 
-  .circle-content {
-    font-size: 12px;
-  }
+.circle-x {
+  color: red;
+  border: solid 1px red;
+  border-radius: 50%;
+}
 
-  .v {
-    color: rgb(96, 212, 192);
-    border-color: rgb(96, 212, 192);
-  }
+h3{
+  display: inline-block;
+  color: rgb(79, 78, 78);
+}
 
-  .x {
-    border-color: red;
-    color: red;
-  }
+.list-card{
+  margin-bottom: 30px;
+}
 
-  .item-title {
-    font-size: 20px;
-  }
+.etiquette {
+  
+}
+
+
+
 
 
